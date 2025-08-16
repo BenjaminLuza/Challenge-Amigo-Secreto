@@ -26,6 +26,11 @@ for (let i = 0; i < amigosSorteo.length; i++) {
     
 }
     }
+//PRUEBA DE DISTINTAS COSAS PARA LA FUNCIÓN DE SORTEO DE AMIGOS
 
-
+function sortearAmigo() {
+    let randomAmigos=Math.floor(Math.random());
+console.log(randomAmigos);
+console.log (amigosSorteo[randomAmigos]);
+}
 
